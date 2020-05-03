@@ -10,6 +10,8 @@
 	},
 	"scripts": {
 		"start": "node compiled/main.js",
+    "compile": "npx shadow-cljs compile actor",
+    "watch": "npx shadow-cljs watch actor",
 		"test": "echo \"Error: oops, the actor has no tests yet, sad!\" && exit 1"
 	},
 	"author": "It's not you it's me",
