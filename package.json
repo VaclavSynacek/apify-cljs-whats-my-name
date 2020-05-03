@@ -9,7 +9,7 @@
 		"shadow-cljs": "^2.8.109"
 	},
 	"scripts": {
-		"start": "node main.js",
+		"start": "node compiled/main.js",
 		"test": "echo \"Error: oops, the actor has no tests yet, sad!\" && exit 1"
 	},
 	"author": "It's not you it's me",
