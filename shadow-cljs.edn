@@ -1,0 +1,11 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src"]
+
+ :dependencies
+ [[funcool/promesa "5.1.0"]]
+
+ :builds
+ {:actor {:output-to "compiled/main.js"
+          :target :node-script
+          :main my.actor/main}}}
