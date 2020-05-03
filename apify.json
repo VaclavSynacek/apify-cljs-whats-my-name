@@ -1,0 +1,7 @@
+{
+	"name": "apify-cljs-whats-my-name",
+	"version": "0.0",
+	"buildTag": "latest",
+	"env": null,
+	"template": "puppeteer_crawler"
+}
