@@ -1,15 +1,18 @@
-# My beautiful actor
+# My beautiful actor in ClojureScript
 
-The `README.md` file contains a documentation what your actor does and how to use it,
-which is then displayed in the app or Apify Store. It's always a good
-idea to write a good `README.md`, in a few months not even you
-will remember all the details about the actor.
+This actor does not do anything really useful. But if you also cannot bare
+JavaScript torture and require a sane lispy language to write actors in, then
+this will get you started using CLojureScript and shadow-cljs.
 
-You can use [Markdown](https://www.markdownguide.org/cheat-sheet)
-language for rich formatting.
+It does not work without some hard bits - especially there are neither externs for
+the apify platforma nor for puppeteer. So you need to write externs by hand.
 
-## Documentation reference
+Also the default docker images do not contain java. So depenting on what you
+are trying to do either make new docker images or build localy and then push
+the compiled results - to do that with this actor do:
 
-- [Apify SDK](https://sdk.apify.com/)
-- [Apify Actor documentation](https://docs.apify.com/actor)
-- [Apify CLI](https://docs.apify.com/cli)
+```
+npm install
+npm run release
+apify push
+```
