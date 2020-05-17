@@ -1,0 +1,7 @@
+.git
+node_modules
+src
+externs
+apify_storage
+.shadow-cljs
+**/*.map
