@@ -1,18 +1,18 @@
 {
 	"name": "apify-cljs-whats-my-name",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "This is a boilerplate of an Apify actor.",
 	"dependencies": {
-		"apify": "^0.20.0"
+		"apify": "^0.20.4"
 	},
 	"devDependencies": {
 		"shadow-cljs": "^2.8.109"
 	},
 	"scripts": {
 		"start": "node compiled/main.js",
-    "compile": "npx shadow-cljs compile actor",
-    "release": "npx shadow-cljs release actor",
-    "watch": "npx shadow-cljs watch actor",
+		"compile": "npx shadow-cljs compile actor",
+		"release": "npx shadow-cljs release actor",
+		"watch": "npx shadow-cljs watch actor",
 		"test": "echo \"Error: oops, the actor has no tests yet, sad!\" && exit 1"
 	},
 	"author": "It's not you it's me",
